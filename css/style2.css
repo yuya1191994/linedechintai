@@ -95,6 +95,19 @@ h2.midashi {
   width: 100%;
 }
 
+.fix-bar {
+  width: 100%;
+  padding: 10px;
+  background: rgba(255,255,255,0.8);
+  position: fixed;
+  z-index: 100;
+}
+
+.logo {
+  width: 200px;
+  margin-right: 0 auto;
+}
+
 .indent {
   text-indent: 1em;
 }
@@ -1802,7 +1815,7 @@ div.skip {
   }
 
   .fh5co-hero-inner {
-      padding-top: 50px;
+    padding-top: 40px;
   }
 
   .fh5co-hero-inner .fh5co-hero-smartphone {
@@ -2141,6 +2154,10 @@ div.skip {
       margin-bottom: 40px;
   }
 
+  .logo {
+    width: 100px;
+  }
+
   .discount-margin {
     width: 100%;
   }
@@ -2199,7 +2216,6 @@ div.skip {
 
   .fh5co-hero-inner {
       text-align: center;
-      padding-top: 0px;
   }
 
   .fh5co-hero-inner .fh5co-hero-smartphone {
